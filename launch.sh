@@ -13,11 +13,13 @@ case "${1:-dev}" in
   build)
     echo "→ Build in corso..."
     npm run build
-    echo "✓ Build completata. Avvia con: npm start"
+    echo "✓ Build completata."
     ;;
   dev)
-    echo "→ Avvio server dev su http://localhost:3000/ponza"
-    npm run dev
+    echo "→ Build statica + preview su http://localhost:3000/ponza"
+    npm run build
+    echo "→ Avvio server locale..."
+    npx serve@latest out -l 3000 --no-clipboard
     ;;
   *)
     echo "Uso: $0 [dev|build]"
