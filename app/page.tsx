@@ -9,11 +9,12 @@ import Food from '@/app/components/Food'
 import Nightlife from '@/app/components/Nightlife'
 import SanSilverio from '@/app/components/SanSilverio'
 import Attractions from '@/app/components/Attractions'
+import Experiences from '@/app/components/Experiences'
 import Logistics from '@/app/components/Logistics'
 import Budget from '@/app/components/Budget'
 import TripPlanner from '@/app/components/TripPlanner'
 
-const sections = ['overview', 'itinerary', 'beaches', 'food', 'nightlife', 'san-silverio', 'attractions', 'logistics', 'budget']
+const sections = ['overview', 'itinerary', 'beaches', 'food', 'nightlife', 'san-silverio', 'attractions', 'experiences', 'logistics', 'budget']
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('overview')
@@ -78,6 +79,8 @@ export default function Home() {
         <SanSilverio />
         <div className="h-px bg-gradient-to-r from-transparent via-ponza-100 to-transparent mx-4 sm:mx-6" />
         <Attractions />
+        <div className="h-px bg-gradient-to-r from-transparent via-ponza-100 to-transparent mx-4 sm:mx-6" />
+        <Experiences />
         <div className="h-px bg-gradient-to-r from-transparent via-ponza-100 to-transparent mx-4 sm:mx-6" />
         <Logistics />
         <div className="h-px bg-gradient-to-r from-transparent via-ponza-100 to-transparent mx-4 sm:mx-6" />

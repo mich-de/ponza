@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Compass, Sun, Waves, Utensils, Moon, Flame, Landmark, Ship, Wallet, Menu, X, ClipboardList } from 'lucide-react'
+import { Compass, Sun, Waves, Utensils, Moon, Flame, Landmark, Sailboat, Ship, Wallet, Menu, X, ClipboardList } from 'lucide-react'
 
 interface SectionNavProps {
   activeSection: string
@@ -17,6 +17,7 @@ const navItems = [
   { id: 'nightlife', label: 'Nightlife', icon: Moon },
   { id: 'san-silverio', label: 'San Silverio', icon: Flame },
   { id: 'attractions', label: 'Attrazioni', icon: Landmark },
+  { id: 'experiences', label: 'Escursioni', icon: Sailboat },
   { id: 'logistics', label: 'Logistica', icon: Ship },
   { id: 'budget', label: 'Budget', icon: Wallet },
 ]

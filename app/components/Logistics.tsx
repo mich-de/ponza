@@ -40,6 +40,28 @@ const sections = [
       : [{ label: 'Taxi boat', value: '5 €' }, { label: 'Bus', value: '2 €' }, { label: 'Scooter', value: '35 €/giorno' }],
   },
   {
+    title: 'Rientro alternativo (via Formia)',
+    icon: Ship,
+    items: [
+      { label: 'Ponza → Formia (aliscafo)', value: '1h 20min, ~22 €' },
+      { label: 'Ponza → Formia (traghetto)', value: '2h 30min, ~15 €' },
+      { label: 'Formia → Napoli (treno)', value: '1h 10min, ~7 €' },
+      { label: 'Operatore', value: 'Laziomar + Trenitalia' },
+      { label: 'Valido', value: 'Tutti i giorni (non solo SNAV)' },
+    ],
+  },
+  {
+    title: 'Rientro alternativo (via Terracina)',
+    icon: Bus,
+    items: [
+      { label: 'Ponza → Terracina (aliscafo)', value: '1h 15min, ~22 €' },
+      { label: 'Terracina → MSB (bus Cotral)', value: '15-20min' },
+      { label: 'MSB → Napoli (treno)', value: '1h 10min, ~7 €' },
+      { label: 'Operatore', value: 'NLG + Cotral + Trenitalia' },
+      { label: 'Biglietto unico', value: 'Terracina Link' },
+    ],
+  },
+  {
     title: 'Interisola',
     icon: MapPin,
     items: log.interisland?.ponza_ventotene
