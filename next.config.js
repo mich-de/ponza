@@ -1,14 +1,14 @@
 const path = require('path');
 
-const isDev = process.env.NODE_ENV === 'development';
+const basePath = process.env.BASE_PATH || '';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: isDev ? undefined : 'export',
-  basePath: isDev ? '' : '/ponza',
-  assetPrefix: isDev ? '' : '/ponza/',
-  trailingSlash: isDev ? false : true,
+  output: basePath ? 'export' : undefined,
+  basePath: basePath,
+  assetPrefix: basePath ? basePath + '/' : '',
+  trailingSlash: !!basePath,
   images: {
     unoptimized: true,
   },
