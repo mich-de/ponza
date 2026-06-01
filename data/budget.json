@@ -1,0 +1,61 @@
+{
+  "currency": "EUR",
+  "notes": "Stima per persona per il weekend 19-21 giugno 2026. Basse/medie stime considerando giugno (non ancora alta stagione).",
+  "tiers": {
+    "low": {
+      "label": "Basso",
+      "total_eur": 210,
+      "breakdown": {
+        "aliscafo_ar": 90,
+        "alloggio_2_notti": 60,
+        "giro_barca_palmarola": 37,
+        "pasti": 15,
+        "extra": 8
+      },
+      "note": "Alloggio in B&B economico, pranzi al sacco, cene informali"
+    },
+    "medium": {
+      "label": "Medio",
+      "total_eur": 365,
+      "breakdown": {
+        "aliscafo_ar": 90,
+        "alloggio_2_notti": 120,
+        "giro_barca_palmarola": 37,
+        "pasti": 80,
+        "taxi_boat_bus": 18,
+        "extra": 20
+      },
+      "note": "B&B/camera, un paio di cene al ristorante, aperitivi"
+    },
+    "comfort": {
+      "label": "Comfort",
+      "total_eur": 560,
+      "breakdown": {
+        "aliscafo_ar": 90,
+        "alloggio_2_notti": 200,
+        "giro_barca_palmarola": 37,
+        "cena_acqua_pazza": 100,
+        "altri_pasti": 80,
+        "taxi_boat_scooter": 35,
+        "aperitivi_locali": 80,
+        "extra": 38
+      },
+      "note": "Hotel vista mare, cena stellata, aperitivi, scooter"
+    },
+    "premium": {
+      "label": "Premium",
+      "total_eur": 940,
+      "breakdown": {
+        "aliscafo_ar": 90,
+        "alloggio_2_notti": 400,
+        "giro_barca_privato": 150,
+        "cena_acqua_pazza": 100,
+        "altri_pasti": 100,
+        "gommone_noleggio": 150,
+        "aperitivi_locali": 80,
+        "extra": 70
+      },
+      "note": "Hotel di charme, tour privato, gommone, cene gourmet"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "arrival": {
+    "mode": "Aliscafo SNAV",
+    "from": "Napoli Beverello",
+    "to": "Ponza",
+    "departure": "15:10",
+    "arrival": "17:50",
+    "via": ["Casamicciola (Ischia)", "Ventotene"],
+    "duration_h": 2.67,
+    "days": "ven 12/19/26 giu",
+    "cost_eur": 45
+  },
+  "departure": {
+    "mode": "Aliscafo SNAV",
+    "from": "Ponza",
+    "to": "Napoli Beverello",
+    "departure": "18:00",
+    "arrival": "20:50",
+    "via": ["Ventotene", "Casamicciola (Ischia)"],
+    "duration_h": 2.83,
+    "days": "ven, sab, dom",
+    "cost_eur": 45
+  },
+  "interisland": {
+    "ponza_ventotene": {
+      "company": "SNAV",
+      "duration_min": 50,
+      "frequency": "ven, sab, dom (giu)",
+      "cost_eur": 27
+    }
+  },
+  "local_transport": {
+    "taxi_boat": {
+      "description": "Taxi boat dal porto alle spiagge vicine",
+      "cost_eur": 5,
+      "route": "Porto ↔ Frontone",
+      "frequency": "ogni 15 min"
+    },
+    "bus": {
+      "description": "Autobus pubblico Porto ↔ Le Forna",
+      "cost_eur": 2,
+      "frequency": "ogni 30 min"
+    },
+    "taxi": {
+      "description": "Taxi terrestre",
+      "cost_eur": 15
+    },
+    "scooter_rental": {
+      "description": "Noleggio scooter (mezzo ideale per l'isola)",
+      "cost_eur": 35,
+      "per": "giorno"
+    },
+    "gommone_rental": {
+      "description": "Noleggio gommone senza patente (max 40 cv)",
+      "cost_eur": 150,
+      "per": "giorno"
+    }
+  },
+  "car_policy": {
+    "description": "Auto sconsigliata. ZTL attiva da giugno per non residenti. Meglio scooter o bus.",
+    "parking_difficulty": "alta"
+  },
+  "tips": [
+    "Prenotare aliscafi con 2-3 settimane di anticipo",
+    "Il vento di ponente può rendere la traversata mossa — portare rimedi anti-nausea",
+    "Senza patente nautica si possono noleggiare gommoni fino a 40 cv",
+    "Il sabato 20 giugno è anche Festa di San Silverio — l'isola è gremita, prenotare tutto"
+  ]
+}
