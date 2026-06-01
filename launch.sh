@@ -11,18 +11,21 @@ fi
 
 case "${1:-dev}" in
   build)
-    echo "→ Build in corso..."
-    npm run build
-    echo "✓ Build completata."
+    echo "→ Build produzione in corso (export statico per GitHub Pages)..."
+    NODE_ENV=production npm run build
+    echo "✓ Build completata in out/"
     ;;
   dev)
-    echo "→ Build statica + preview su http://localhost:3000/ponza"
-    npm run build
-    echo "→ Avvio server locale..."
+    echo "→ Avvio server dev su http://localhost:3000"
+    npm run dev
+    ;;
+  preview)
+    echo "→ Build produzione + preview locale su http://localhost:3000"
+    NODE_ENV=production npm run build
     npx serve@latest out -l 3000 --no-clipboard
     ;;
   *)
-    echo "Uso: $0 [dev|build]"
+    echo "Uso: $0 [dev|build|preview]"
     exit 1
     ;;
 esac
