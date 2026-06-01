@@ -117,7 +117,8 @@
     "bestTime": "mattina",
     "duration_min": 30,
     "entry_fee": "gratuito",
-    "coordinates": null
+    "coordinates": null,
+    "note": "Nel 2026 sono stati stanziati circa 10 milioni di euro dalla Regione Lazio per la messa in sicurezza e il consolidamento del porto di Ventotene."
   },
   {
     "id": "villa-giulia",
@@ -148,12 +149,48 @@
     "name": "La Cattedrale di Palmarola",
     "island": "Palmarola",
     "category": "natura",
-    "description": "Imponente parete di colonne basaltiche che sembrano guglie gotiche. Capolavoro di erosione naturale.",
+    "description": "Imponente parete di colonne basaltiche che sembrano guglie gotiche o canne d'organo. Capolavoro di erosione naturale sulla costa nord-occidentale. Navigare sotto queste pareti maestose suscita un senso di riverenza. Sulla sommità si scorge una colonia di palme nane.",
     "access": "solo via mare",
     "bestTime": "in base all'escursione",
     "duration_min": 15,
     "entry_fee": "gratuito (incluse nelle escursioni)",
     "coordinates": null
+  },
+  {
+    "id": "faraglioni-mezzogiorno",
+    "name": "Faraglioni di Mezzogiorno",
+    "island": "Palmarola",
+    "category": "natura",
+    "description": "Maestosi faraglioni a sud di Palmarola tra cui si distingue il più grande con un grottone interno alto circa 20 m accessibile in barca — si entra e si esce dall'altro lato. Giochi di luce spettacolari a mezzogiorno.",
+    "access": "solo via mare",
+    "bestTime": "mezzogiorno",
+    "duration_min": 10,
+    "entry_fee": "gratuito (incluse nelle escursioni)",
+    "note": "Tappa fissa dei tour della Cooperativa Barcaioli."
+  },
+  {
+    "id": "grotta-del-gatto",
+    "name": "Grotta del Gatto",
+    "island": "Palmarola",
+    "category": "natura",
+    "description": "Grotta marina accessibile in piccole imbarcazioni dove una sorgente d'acqua dolce si mescola all'acqua salata creando un effetto di trasparenza unico. Il nome deriva dalla conformazione rocciosa che ricorda un gatto. Vicino ai Faraglioni di Mezzogiorno.",
+    "access": "solo via mare (tour in barca)",
+    "bestTime": "mezzogiorno (giochi di luce solare)",
+    "duration_min": 10,
+    "entry_fee": "gratuito (incluse nelle escursioni)",
+    "coordinates": null
+  },
+  {
+    "id": "case-grotta-palmarola",
+    "name": "Case Grotta di Palmarola",
+    "island": "Palmarola",
+    "category": "cultura",
+    "description": "Abitazioni tradizionali scavate a mano nel tufo da contadini e pescatori ponzesi nel '700 per ripararsi dalle intemperie e dai pirati. Riconoscibili dalle porte azzurre e bianche incassate nella parete rocciosa di Cala Porto. La parete sovrastante è composta in parte di ossidiana (vetro vulcanico nero).",
+    "access": "solo via mare (visibili durante la sosta a Cala Porto)",
+    "bestTime": "in base all'escursione",
+    "duration_min": 15,
+    "entry_fee": "gratuito (visibili dall'esterno)",
+    "note": "Alcune sono ancora utilizzate come ricovero stagionale. Le porte colorate sono state aggiunte in epoca recente."
   },
   {
     "id": "chiesa-san-silverio",

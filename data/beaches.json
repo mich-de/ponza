@@ -42,7 +42,7 @@
     "snorkeling": true,
     "sunExposure": "tutto il giorno",
     "bestTime": "mattina e primo pomeriggio",
-    "note": "Vicina alle Piscine Naturali, raggiungibili a piedi."
+    "note": "Vicina alle Piscine Naturali, raggiungibili a piedi. Nel 2026 sono in corso lavori di riqualificazione del pontile di Cala Feola e dell'elisuperficie di Le Forna."
   },
   {
     "id": "piscine-naturali",
@@ -79,15 +79,15 @@
     "name": "Cala Fonte",
     "island": "Ponza",
     "description": "Piccolo porticciolo di pescatori nella zona di Le Forna. Acqua cristallina e vista su Palmarola.",
-    "access": "solo via mare o sentiero scosceso",
+    "access": "sentiero (regolamentato, max 150 persone) o via mare",
     "sandType": "scogli",
     "atmosphere": "selvaggia, autentica",
-    "services": "nessuno",
+    "services": "servizio navetta in barca per lo scoglio, monitoraggio accessi",
     "swimming": true,
     "snorkeling": true,
     "sunExposure": "tutto il giorno",
     "bestTime": "mattina",
-    "note": "Accessibile solo in barca o con un sentiero impegnativo."
+    "note": "Chiusa nel 2024 per rischio frana, è stata parzialmente riaperta ad agosto 2025 con accesso controllato a un massimo di 150 persone contemporaneamente. È presente un presidio per monitorare gli accessi e un piccolo gozzo fa da spola per facilitare l'accesso allo scoglio piatto."
   },
   {
     "id": "cala-gaetano",
@@ -192,6 +192,36 @@
     "snorkeling": true,
     "sunExposure": "tutto il giorno",
     "bestTime": "in base all'escursione (sosta 1-1.5h)",
-    "note": "Case-grotta dei contadini ponzesi visibili nella roccia."
+    "note": "Case-grotta dei contadini ponzesi visibili nella roccia. Qui hanno girato scene del documentario 'Five Days in Ponza' (Gratsi Wine, 2025)."
+  },
+  {
+    "id": "cala-porto-palmarola",
+    "name": "Cala Porto",
+    "island": "Palmarola",
+    "description": "Baia sulla costa orientale di Palmarola, sovrastata da una parete rocciosa di ossidiana nera. Qui si possono vedere le Case Grotta — abitazioni scavate nel tufo dai primi coloni ponzesi nel '700, ancora riconoscibili dalle caratteristiche porte azzurre e bianche.",
+    "access": "solo via mare (tour in barca)",
+    "sandType": "ghiaia e scogli",
+    "atmosphere": "storica, selvaggia",
+    "services": "nessuno",
+    "swimming": true,
+    "snorkeling": true,
+    "sunExposure": "tutto il giorno",
+    "bestTime": "in base all'escursione",
+    "note": "Sosta prevista nei tour della Cooperativa Barcaioli. Parete di ossidiana — vetro vulcanico nero."
+  },
+  {
+    "id": "la-forcina",
+    "name": "La Forcina",
+    "island": "Palmarola",
+    "description": "Per i ponzesi è il posto più bello di Palmarola. Insenatura stretta incassata tra pareti di tufo bianco, con acqua turchese che crea un effetto cromatico unico riflettendo la roccia. Citata nel documentario 'Five Days in Ponza' (Gratsi Wine, 2025) come 'il posto più bello di Palmarola'.",
+    "access": "solo via mare",
+    "sandType": "scogli",
+    "atmosphere": "paradisiaca, segreta",
+    "services": "nessuno",
+    "swimming": true,
+    "snorkeling": true,
+    "sunExposure": "tutto il giorno",
+    "bestTime": "in base all'escursione (sosta pranzo dei pescaturismo)",
+    "note": "Raggiungibile solo con tour in barca o pescaturismo. Non ci sono tour che si fermano qui — solo i pescatori locali conoscono questo spot."
   }
 ]

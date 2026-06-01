@@ -155,6 +155,34 @@
     "note": "Aperto dalle 18 alle 2. DJ set serali."
   },
   {
+    "id": "trattoria-ponzese",
+    "name": "Trattoria Ponzese",
+    "zone": "Centro",
+    "description": "Il salotto dell'isola. Marisa e suo nipote servono la migliore pizza rossa di Ponza (pomodoro e origano). Aperta dalla colazione al pranzo. Tutti i ponzesi ci passano ogni mattina. Marisa prepara anche pizze farcite, arancini e linguine al pomodoro giallo con acciughe.",
+    "specialty": "Pizza rossa al pomodoro, linguine con pomodoro giallo e acciughe, arancini",
+    "priceLevel": "€",
+    "priceRange": "3-8 €/persona",
+    "reservation": "no",
+    "view": "strada, vita locale",
+    "dinner": false,
+    "lunch": true,
+    "note": "Aperta solo mattina e pranzo. Andare presto (7:30) per il rito del caffè e pizza rossa."
+  },
+  {
+    "id": "bar-nautilus",
+    "name": "Bar Nautilus",
+    "zone": "Le Forna (Piscine Naturali)",
+    "description": "Bar scavato nella roccia a picco sulle Piscine Naturali. Bruschette di ogni tipo, caffè con vista mare. Ritrovo dei ragazzi del posto che si tuffano dagli scogli. Musica e atmosfera giovane.",
+    "specialty": "Bruschette miste, caffè, birra fresca",
+    "priceLevel": "€",
+    "priceRange": "5-10 €/persona",
+    "reservation": "no",
+    "view": "Piscine Naturali, mare",
+    "dinner": false,
+    "lunch": true,
+    "note": "Merenda perfetta dopo il bagno. Raggiungibile a piedi da Le Forna."
+  },
+  {
     "id": "baguetteria-del-porto",
     "name": "Baguetteria del Porto",
     "zone": "Porto",

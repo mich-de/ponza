@@ -37,8 +37,8 @@
       "frequency": "ogni 15 min"
     },
     "bus": {
-      "description": "Autobus pubblico Porto ↔ Le Forna",
-      "cost_eur": 2,
+      "description": "Autobus pubblico Porto ↔ Le Forna (spesso molto affollato in alta stagione)",
+      "cost_eur": 2.50,
       "frequency": "ogni 30 min"
     },
     "taxi": {
@@ -57,13 +57,14 @@
     }
   },
   "car_policy": {
-    "description": "Auto sconsigliata. ZTL attiva da giugno per non residenti. Meglio scooter o bus.",
-    "parking_difficulty": "alta"
+    "description": "Auto sconsigliata. ZTL attiva da giugno a settembre per i veicoli dei non residenti. È attivo il portale ufficiale ponzatraffico.it per la gestione dei permessi ZTL, pagamento delle strisce blu e acquisto pass. Meglio scooter o bus.",
+    "parking_difficulty": "altissima"
   },
   "tips": [
     "Prenotare aliscafi con 2-3 settimane di anticipo",
     "Il vento di ponente può rendere la traversata mossa — portare rimedi anti-nausea",
     "Senza patente nautica si possono noleggiare gommoni fino a 40 cv",
-    "Il sabato 20 giugno è anche Festa di San Silverio — l'isola è gremita, prenotare tutto"
+    "Il sabato 20 giugno è anche Festa di San Silverio — l'isola è gremita, prenotare tutto",
+    "Dal 2025/2026 è obbligatorio pagare il ticket di stazionamento per le imbarcazioni nelle rade di Ponza e Palmarola tramite l'app o il sito ufficiale MyPonza (myponza.it)"
   ]
 }
