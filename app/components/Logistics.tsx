@@ -62,14 +62,16 @@ const sections = [
     ],
   },
   {
-    title: 'Interisola',
+    title: 'Collegamenti Interisola',
     icon: MapPin,
-    items: log.interisland?.ponza_ventotene
-      ? [
-          { label: 'Ponza → Ventotene', value: `${log.interisland.ponza_ventotene.duration_min} min, ${log.interisland.ponza_ventotene.cost_eur} €` },
-          { label: 'Frequenza', value: log.interisland.ponza_ventotene.frequency },
-        ]
-      : [{ label: 'Ponza → Ventotene', value: '50 min, 27 €' }],
+    items: [
+      { label: 'Ponza ⇄ Ventotene (Aliscafo)', value: `${log.interisland.ponza_ventotene.duration_min} min, ${log.interisland.ponza_ventotene.cost_eur} €` },
+      { label: '→ Andata Ponza-Ventotene', value: log.interisland.ponza_ventotene.outbound_ponza_ventotene.schedule },
+      { label: '← Ritorno Ventotene-Ponza', value: log.interisland.ponza_ventotene.return_ventotene_ponza.schedule },
+      { label: 'Ponza ⇄ Palmarola (Barca/Gommone)', value: `~${log.interisland.ponza_palmarola.duration_min} min, ~${log.interisland.ponza_palmarola.cost_eur} €` },
+      { label: '→ Andata (Giro barca/Nolo)', value: "Molo Musco ore 11:00 o in autonomia" },
+      { label: '← Ritorno Palmarola-Ponza', value: "Rientro tour ore 17:00 / prima del tramonto" },
+    ],
   },
 ]
 

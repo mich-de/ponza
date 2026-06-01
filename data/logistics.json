@@ -23,10 +23,39 @@
   },
   "interisland": {
     "ponza_ventotene": {
-      "company": "SNAV",
+      "company": "SNAV (Aliscafo)",
       "duration_min": 50,
-      "frequency": "ven, sab, dom (giu)",
-      "cost_eur": 27
+      "cost_eur": 27,
+      "outbound_ponza_ventotene": {
+        "description": "Da Ponza a Ventotene",
+        "schedule": "18:00 ➔ 18:50 (Venerdì, Sabato e Domenica)"
+      },
+      "return_ventotene_ponza": {
+        "description": "Da Ventotene a Ponza",
+        "schedule": "10:05 ➔ 10:55 (Sabato e Domenica) e 17:15 ➔ 17:50 (Venerdì)"
+      },
+      "note": "Per altri giorni o soluzioni Laziomar interisola, verificare gli orari stagionali."
+    },
+    "ponza_palmarola": {
+      "mode": "Barca / Gommone / Tour",
+      "duration_min": 40,
+      "cost_eur": 37,
+      "description": "Palmarola dista circa 5 miglia da Ponza. Non ci sono navi di linea regolari essendo l'isola disabitata.",
+      "outbound_ponza_palmarola": {
+        "description": "Da Ponza a Palmarola",
+        "options": [
+          "Giro in barca organizzato (es. Cooperativa Barcaioli Ponzesi) partendo dal Porto di Ponza alle 11:00",
+          "Noleggio di un gommone o barca privata dal Porto di Ponza o da Le Forna per massima libertà",
+          "Servizio taxi boat privato su prenotazione"
+        ]
+      },
+      "return_palmarola_ponza": {
+        "description": "Da Palmarola a Ponza",
+        "options": [
+          "Rientro dei tour organizzati nel tardo pomeriggio (solitamente verso le 17:00)",
+          "Rientro con gommone a noleggio prima del tramonto (entro le 18:00/19:00)"
+        ]
+      }
     }
   },
   "local_transport": {
