@@ -4,7 +4,9 @@ const path = require('path');
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: process.env.GITHUB_ACTIONS === 'true' ? '/ponza' : '',
+  basePath: '/ponza',
+  assetPrefix: '/ponza/',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },

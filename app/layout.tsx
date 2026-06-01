@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Ponza 2026 — Isole Pontine',
   description: 'Dashboard di viaggio per le Isole Pontine. Itinerario 19-21 giugno 2026 con Festa di San Silverio.',
-  icons: [{ rel: 'icon', url: '/favicon.svg', type: 'image/svg+xml' }],
+  icons: [{ rel: 'icon', url: '/ponza/favicon.svg', type: 'image/svg+xml' }],
 }
 
 export default function RootLayout({
