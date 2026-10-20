@@ -1,0 +1,51 @@
+{
+  "trip": {
+    "destination": "Isole Pontine",
+    "base": "Ponza",
+    "dates": {
+      "start": "2026-06-19",
+      "end": "2026-06-21"
+    },
+    "days": [
+      {
+        "date": "2026-06-19",
+        "dayName": "Venerdì",
+        "title": "Arrivo e primo assaggio del porto",
+        "theme": "Trasferimento e ambientamento",
+        "morning": "Partenza da Napoli Beverello con SNAV alle 15:10. Scalo a Casamicciola (Ischia) e Ventotene.",
+        "afternoon": "Arrivo a Ponza alle 17:50. Check-in e passeggiata sul Corso Pisacane.",
+        "sunset": "Aperitivo al Bar Tripoli o Au Bord de l'Eau sul porto.",
+        "evening": "Cena da Oresteria o Il Porticciolo. Giro serale del porto borbonico.",
+        "night": "Primo giro dei locali, Winespeare piano bar.",
+        "note": "Prenotare il giro in barca per sabato appena arrivati.",
+        "energy_level": "basso"
+      },
+      {
+        "date": "2026-06-20",
+        "dayName": "Sabato",
+        "title": "Palmarola e Festa di San Silverio",
+        "theme": "Giro in barca + festa patronale",
+        "morning": "Colazione al porto. Rifornimento per la gita in barca.",
+        "afternoon": "Giro in barca Ponza + Palmarola (11:00-17:00, Cooperativa Barcaioli). Circumnavigazione di Palmarola con soste bagno, snorkeling, discesa a O' Francese. Pranzo a bordo incluso.",
+        "sunset": "Rientro. Festa di San Silverio: processione in mare. Aperitivo al Frontone Beach Club.",
+        "evening": "Cena speciale (Acqua Pazza o Punta Incenso da Anna).",
+        "night": "Fuochi d'artificio per San Silverio. Discoteca Mamafè o O'Sarracino.",
+        "note": "Il 20 giugno è il giorno del patrono San Silverio — l'isola è in festa.",
+        "energy_level": "alto"
+      },
+      {
+        "date": "2026-06-21",
+        "dayName": "Domenica",
+        "title": "Spiagge e rientro",
+        "theme": "Relax e partenza",
+        "morning": "Opzione A: Piscine Naturali + Cala Feola. Opzione B: trekking Monte Guardia. Opzione C: gita a Ventotene.",
+        "afternoon": "Ultimo bagno al Frontone o Cala dell'Acqua. Pranzo da La Marina o Gennarino a Mare.",
+        "sunset": "Ultimo giro in centro, souvenir.",
+        "evening": "Partenza SNAV da Ponza alle 18:00. Arrivo a Napoli Beverello alle 20:50.",
+        "night": null,
+        "note": "Check-out entro le 10:00. Lasciare i bagagli al deposito del porto.",
+        "energy_level": "medio"
+      }
+    ]
+  }
+}

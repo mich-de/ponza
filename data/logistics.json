@@ -1,0 +1,100 @@
+{
+  "arrival": {
+    "mode": "Aliscafo SNAV",
+    "from": "Napoli Beverello",
+    "to": "Ponza",
+    "departure": "15:10",
+    "arrival": "17:50",
+    "via": ["Casamicciola (Ischia)", "Ventotene"],
+    "duration_h": 2.67,
+    "days": "ven 12/19/26 giu",
+    "cost_eur": 45
+  },
+  "departure": {
+    "mode": "Aliscafo SNAV",
+    "from": "Ponza",
+    "to": "Napoli Beverello",
+    "departure": "18:00",
+    "arrival": "20:50",
+    "via": ["Ventotene", "Casamicciola (Ischia)"],
+    "duration_h": 2.83,
+    "days": "ven, sab, dom",
+    "cost_eur": 45
+  },
+  "interisland": {
+    "ponza_ventotene": {
+      "company": "SNAV (Aliscafo)",
+      "duration_min": 50,
+      "cost_eur": 27,
+      "outbound_ponza_ventotene": {
+        "description": "Da Ponza a Ventotene",
+        "schedule": "18:00 ➔ 18:50 (Venerdì, Sabato e Domenica)"
+      },
+      "return_ventotene_ponza": {
+        "description": "Da Ventotene a Ponza",
+        "schedule": "10:05 ➔ 10:55 (Sabato e Domenica) e 17:15 ➔ 17:50 (Venerdì)"
+      },
+      "note": "Per altri giorni o soluzioni Laziomar interisola, verificare gli orari stagionali."
+    },
+    "ponza_palmarola": {
+      "mode": "Barca / Gommone / Tour",
+      "duration_min": 40,
+      "cost_eur": 37,
+      "description": "Palmarola dista circa 5 miglia da Ponza. Non ci sono navi di linea regolari essendo l'isola disabitata.",
+      "outbound_ponza_palmarola": {
+        "description": "Da Ponza a Palmarola",
+        "options": [
+          "Giro in barca organizzato (es. Cooperativa Barcaioli Ponzesi) partendo dal Porto di Ponza alle 11:00",
+          "Noleggio di un gommone o barca privata dal Porto di Ponza o da Le Forna per massima libertà",
+          "Servizio taxi boat privato su prenotazione"
+        ]
+      },
+      "return_palmarola_ponza": {
+        "description": "Da Palmarola a Ponza",
+        "options": [
+          "Rientro dei tour organizzati nel tardo pomeriggio (solitamente verso le 17:00)",
+          "Rientro con gommone a noleggio prima del tramonto (entro le 18:00/19:00)"
+        ]
+      }
+    }
+  },
+  "local_transport": {
+    "taxi_boat": {
+      "description": "Taxi boat dal porto alle spiagge vicine",
+      "cost_eur": 5,
+      "route": "Porto ↔ Frontone",
+      "frequency": "ogni 15 min"
+    },
+    "bus": {
+      "description": "Autobus pubblico Porto ↔ Le Forna (spesso molto affollato in alta stagione)",
+      "cost_eur": 2.50,
+      "frequency": "ogni 30 min"
+    },
+    "taxi": {
+      "description": "Taxi terrestre",
+      "cost_eur": 15
+    },
+    "scooter_rental": {
+      "description": "Noleggio scooter (mezzo ideale per l'isola)",
+      "cost_eur": 35,
+      "per": "giorno"
+    },
+    "gommone_rental": {
+      "description": "Noleggio gommone senza patente (max 40 cv)",
+      "cost_eur": 150,
+      "per": "giorno"
+    }
+  },
+  "car_policy": {
+    "description": "Auto sconsigliata. ZTL attiva da giugno a settembre per i veicoli dei non residenti. È attivo il portale ufficiale ponzatraffico.it per la gestione dei permessi ZTL, pagamento delle strisce blu e acquisto pass. Meglio scooter o bus.",
+    "parking_difficulty": "altissima"
+  },
+  "tips": [
+    "Prenotare aliscafi con 2-3 settimane di anticipo",
+    "Il vento di ponente può rendere la traversata mossa — portare rimedi anti-nausea",
+    "Senza patente nautica si possono noleggiare gommoni fino a 40 cv",
+    "Il sabato 20 giugno è anche Festa di San Silverio — l'isola è gremita, prenotare tutto",
+    "Dal 2025/2026 è obbligatorio pagare il ticket di stazionamento per le imbarcazioni nelle rade di Ponza e Palmarola tramite l'app o il sito ufficiale MyPonza (myponza.it)",
+    "Se senti parlare di 'trasporti da Nettuno' per Ponza/Palmarola, si tratta di noleggi di barche private o charter turistici in partenza dal porto Marina di Nettuno. I traghetti e aliscafi di linea pubblici partono invece dal vicino porto di Anzio"
+  ]
+}
